@@ -15,38 +15,47 @@ body {
 .footer {
   background: #2f303a;
 }
-.logo {
+
+.logo :hover {
   text-decoration: none;
-}
-.logo-web {
-  color: #2196f3;
-  height: 31px;
+  text-decoration: underline;
+
   width: 145px;
-  border-radius: nullpx;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 31px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 }
 
-.studio {
-  font-family: Oleo Script;
-  font-size: 26px;
+.logo-web {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
-  line-height: 35, 96px;
+  color: #2196f3;
+}
+
+.logo-studio {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
   color: black;
 }
 
-.studios {
-  font-family: Oleo Script;
-  font-size: 26px;
+.logo-studios {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
   font-style: normal;
-  font-weight: 700;
-  line-height: 35, 96px;
   color: white;
 }
+
 ul > li {
   display: inline;
 }
@@ -59,6 +68,13 @@ ul > li {
   border-radius: nullpx;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .link:hover,
 .link:focus {
   color: #2196f3;
@@ -68,7 +84,6 @@ ul > li {
   line-height: 16px;
   text-align: left;
   background-color: white;
-  text-decoration: none;
 }
 
 .nav-link-adress {
@@ -79,7 +94,6 @@ ul > li {
   line-height: 16px;
   letter-spacing: 0.02em;
   text-align: left;
-  text-decoration: none;
 }
 .hero-title {
   height: 120px;
@@ -88,7 +102,7 @@ ul > li {
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 136%;
   text-align: center;
 }
 .btn:hover,
@@ -110,16 +124,11 @@ ul > li {
   height: 101px;
   width: 270px;
 }
+
 .title-box {
-  width: 270px;
-  height: 16px;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-
-  color: #212121;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 3%;
 }
 
 .title-text {
@@ -158,13 +167,13 @@ ul > li {
   width: 231px;
   height: 21px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 100%;
   color: #ffffff;
 }
 .link-adress {
   width: 231px;
   height: 21px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 100%;
   color: rgba(255, 255, 255, 0.6);
 }
