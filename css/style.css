@@ -16,10 +16,9 @@ body {
   background: #2f303a;
 }
 
-.logo :hover {
-  text-decoration: none;
-  text-decoration: underline;
-
+.logo {
+  font-weight: bold;
+  font-size: 26px;
   width: 145px;
   height: 31px;
   left: 215px;
@@ -66,6 +65,11 @@ ul > li {
   left: 453px;
   top: 32px;
   border-radius: nullpx;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }
 
 a {
@@ -81,7 +85,7 @@ a:hover {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1;
   text-align: left;
   background-color: white;
 }
@@ -91,7 +95,7 @@ a:hover {
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -102,7 +106,7 @@ a:hover {
   font-size: 44px;
   font-style: normal;
   font-weight: 900;
-  line-height: 136%;
+  line-height: 1.36;
   text-align: center;
 }
 .btn:hover,
@@ -127,7 +131,7 @@ a:hover {
 
 .title-box {
   font-size: 16px;
-  line-height: 100%;
+  line-height: 1;
   letter-spacing: 3%;
 }
 
@@ -138,7 +142,7 @@ a:hover {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.46;
   color: #757575;
 }
 .information-title {
@@ -147,7 +151,7 @@ a:hover {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1;
   color: #212121;
 }
 .section-team {
@@ -167,13 +171,18 @@ a:hover {
   width: 231px;
   height: 21px;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1.71;
+  font-style: normal;
+  font-weight: normal;
+
   color: #ffffff;
 }
 .link-adress {
   width: 231px;
   height: 21px;
   font-size: 14px;
-  line-height: 100%;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
   color: rgba(255, 255, 255, 0.6);
 }
